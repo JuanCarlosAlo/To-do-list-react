@@ -1,7 +1,7 @@
 import { TaskCardStyle } from "./styles"
 
 const TodoItem =({arrayObj})=>{
-  
+  console.log(arrayObj)
     return arrayObj.map((element) => 
        <TaskCardStyle>
             <input type="checkbox" defaultChecked={element.checked}/>
